@@ -2,6 +2,7 @@ import pyautogui
 import threading
 
 moveMouseUp = True
+count = 1
 
 def set_interval(func, sec):
     def func_wrapper():
@@ -13,8 +14,11 @@ def set_interval(func, sec):
 
 def moveMouse():
     global moveMouseUp
-    pyautogui.moveRel(None, 10) if moveMouseUp else pyautogui.moveRel(None, -10)
+    global count
+    pixelsToMove = 1 if moveMouseUp else -1
+    pyautogui.moveRel(None, pixelsToMove)
     moveMouseUp = not moveMouseUp
-    print ('Moved mouse')
+    print ('Moved mouse ' + str(count) + ' times')
+    count += 1
 
-set_interval(moveMouse, 3)
+set_interval(moveMouse, 60)
