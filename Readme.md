@@ -1,5 +1,5 @@
 # Never Sleep
-A python script which alternates between moving your mouse 10 pixels up and 10 pixels down, every 3 seconds.
+A python script which alternates between moving your mouse 1 pixel up and 1 pixel down, every 60 seconds.
 
 ## Installation
 All depedencies require Python3+ to use and pip to install.
