@@ -1,0 +1,22 @@
+{
+  "name": "never-sleep",
+  "version": "1.0.0",
+  "description": "A script which alternates between moving your mouse 1 pixel up and 1 pixel down, every 60 seconds.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKopen/Never-Sleep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKopen/Never-Sleep/issues"
+  },
+  "homepage": "https://github.com/AlexKopen/Never-Sleep#readme",
+  "dependencies": {
+    "robotjs": "^0.5.1"
+  }
+}
