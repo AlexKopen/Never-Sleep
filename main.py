@@ -21,4 +21,4 @@ def moveMouse():
     print ('Moved mouse ' + str(count) + ' times')
     count += 1
 
-set_interval(moveMouse, 60)
+set_interval(moveMouse, 30)
